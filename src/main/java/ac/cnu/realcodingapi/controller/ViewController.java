@@ -8,8 +8,7 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class ViewController {
     @GetMapping("/index")
-    public String index(Model model) {
-        model.addAttribute("group", 10);
+    public String index() {
         return "index";
     }
 }
