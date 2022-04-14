@@ -25,8 +25,12 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
+    //spring doc
     implementation 'org.springdoc:springdoc-openapi-ui:1.6.7'
     implementation 'org.springdoc:springdoc-openapi-webmvc-core:1.6.7'
+
+    //actual
+    implementation 'org.springframework.boot:spring-boot-starter-actuator'
 
     implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 }
